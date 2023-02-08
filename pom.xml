@@ -7,6 +7,11 @@
     <groupId>io.github.dsapr</groupId>
     <artifactId>web3j-spring-boot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>web3j-spring-boot-starter</name>
+    <description>Web3j Spring Boot Starter</description>
+    <url>https://github.com/dsapr/web3j-spring-boot-starter</url>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,11 +24,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
             <version>2.7.7</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.web3j</groupId>
             <artifactId>core</artifactId>
             <version>4.9.6</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
